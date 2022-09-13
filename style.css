@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contp{
+    width: 550px;
+    height: 405px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    position: relative;
+    box-shadow: 1px 1px 15px rgb(153, 151, 150);
+}
+
+.desktop{
+    width: auto;
+    height: auto;
+    width: 270px;
+    height: 405px;
+    overflow: auto;
+    position: absolute;
+    right: 50%;
+    border-radius: 5px;
+}
+.container{
+    width: 280px;
+    height: 405px;
+    align-items: stretch;
+    position: absolute;
+    left: 50%;
+}
+.text1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(155, 155, 155);
+}
+.titulo{
+    margin-left: 30px;
+    font-size: 32px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: georgia, serif;
+    font-weight: bold;
+    font-weight: 800;
+}
+.definision{
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-right: 40px;
+    color: rgb(155, 155, 155);
+}
+.precios{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    display: flex;
+    color: rgb(155, 155, 155);
+}
+.oferta{
+    font-size: 30px;
+    color: rgb(59, 145, 92);
+    margin-right: 20px;
+    font-family: georgia, serif;
+    font-weight: bold;
+}
+.precio{
+    font-size: 15px;
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.carrito{
+    display: block;
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(34, 128, 70);
+    color: floralwhite;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn :hover{
+    background-color: rgb(17, 77, 40);
+}
+.carrito1{
+    margin-right: 10px;
+    align-items: center;
+}
+
+@media (max-width:390px) {
+    .contp{
+        width: 340px;
+        height: 680px;
+        top: 20px;
+        margin: 0 auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+    .desktop{
+        width: 340px;
+        height: 280px;
+        left: 0px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .container{
+        top: 285px;
+        width: 340px;
+        height: 310px;
+        left: 3px;
+    }
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        color: hsl(228, 45%, 44%); 
+    }    
+}
+
+
+.attribution { 
+    margin: 10px;
+    font-size: 20px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+a{
+    text-decoration: none;
+}
